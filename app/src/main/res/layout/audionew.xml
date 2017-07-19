@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:id="@+id/widget31"
+  >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:background="#000000">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:orientation="vertical"
+        android:id="@+id/lay11"
+        android:weightSum="2"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:id="@+id/la21"
+            android:weightSum="3"
+            android:background="#808080"
+            android:orientation="horizontal">
+
+            <ImageButton android:layout_height="56dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/ButtonTestPlayPause1"
+                android:src="@mipmap/ic_play1"
+                android:onClick="onClick"
+                android:contentDescription="TestPlayPause"
+                android:layout_below="@+id/SeekBarTestPlay"
+                android:background="@null"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal" />
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="42dp"
+                android:id="@+id/play"
+                android:src="@mipmap/ic_paly1"
+                android:layout_weight="1"
+                android:layout_marginTop="38dp"
+                android:background="@null"
+                android:paddingTop="12dp"
+                android:layout_below="@+id/SeekBarTestPlay"
+                android:layout_gravity="center_horizontal" />
+            <ImageButton android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/ButtonTestPlayPause4"
+                android:src="@mipmap/ic_forward"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:contentDescription="TestPlayPause"
+                android:layout_below="@+id/SeekBarTestPlay"
+                android:background="@null"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="#808080"
+            android:layout_below="@+id/lay11">
+            <SeekBar
+                android:id="@+id/SeekBarTestPlay"
+                android:layout_below="@+id/lay11"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10px"
+                android:layout_marginBottom="12dp"
+                android:paddingTop="10dp"
+                android:layout_marginTop="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

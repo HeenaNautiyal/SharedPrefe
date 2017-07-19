@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#1C86EE"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+//First Layout
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:id="@+id/lay_money"
+            android:paddingBottom="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/ivImage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="8dp"
+                android:src="@mipmap/ic_article3" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/tv_pdffirst"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:textSize="16dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Money Matters"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:paddingTop="5dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        //Second Layout
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:id="@+id/lay_self"
+            android:paddingBottom="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/ivImage2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="8dp"
+                android:src="@mipmap/ic_article3" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/tv_pdfsecond"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:textSize="16dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Self-doubt"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:paddingTop="5dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

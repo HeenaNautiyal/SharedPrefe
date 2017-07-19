@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#1C86EE"
+    android:orientation="vertical"
+    android:id="@+id/lay1"
+    android:weightSum="1"
+    >
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_marginTop="1dp"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:paddingTop="14dp"
+        tools:listitem="@layout/row"
+        android:layout_above="@+id/btn_continue"
+        >
+
+    </ListView>
+</LinearLayout>
+
+

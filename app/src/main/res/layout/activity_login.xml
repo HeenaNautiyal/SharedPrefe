@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/default_ipadback"
+    android:orientation="vertical"
+    android:id="@+id/lay1"
+    android:weightSum=".99"
+    >
+
+     
+       
+    <LinearLayout
+        android:layout_width="278dp"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/graphic"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/linearLayout">
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:id="@+id/ed_lastName"
+            android:textColor="#000000"
+            android:hint="Email"
+            android:background="@drawable/etext"
+            android:textColorHint="#808080"
+            android:gravity="center"
+
+            android:textSize="15dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="45dp"
+
+            />
+
+        <EditText
+            android:layout_marginTop="45dp"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:id="@+id/ed_password"
+            android:textColor="#000000"
+            android:layout_marginLeft="3dp"
+            android:hint="Password"
+            android:background="@drawable/etext"
+            android:textColorHint="#808080"
+            android:ellipsize="end"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:textSize="15dp"
+
+            />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="Submit"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textAllCaps="false"
+            android:id="@+id/btn_Submit"
+            android:textColor="#ffffff"
+            android:background="@drawable/gradient3"
+            android:layout_below="@id/ed_password"
+            android:layout_marginTop="45dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

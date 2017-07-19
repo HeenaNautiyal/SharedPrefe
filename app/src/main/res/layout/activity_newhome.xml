@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:id="@+id/widget31"
+    android:orientation="vertical"
+    android:background="@drawable/default_ipadback"
+    android:weightSum="3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="33.3dp"
+            android:layout_height="102dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/author3"
+            android:id="@+id/i_author"
+            android:layout_weight="1"/>
+        <View
+            android:layout_width="1dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"></View>
+        <ImageView
+            android:layout_width="33.3dp"
+            android:layout_height="100dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/i_programe"
+            android:background="@drawable/programs2"
+            android:layout_weight="1"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"></View>
+
+        <ImageView
+            android:layout_width="33.3dp"
+            android:layout_height="100dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/i_tvshows"
+            android:background="@drawable/tv_show2"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TableRow
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:id="@+id/i_tvshow"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="8dp"></TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        >
+
+        <ImageView
+            android:layout_width="33.3dp"
+            android:layout_height="100dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/i_freestuff"
+            android:background="@drawable/free_stuff2"
+            android:layout_weight="1"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"></View>
+
+        <ImageView
+            android:layout_width="33.3dp"
+            android:layout_height="100dp"
+            android:paddingTop="14dp"
+            android:id="@+id/i_inquire"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/inquire2"
+            android:layout_weight="1"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"></View>
+        <!--
+    //connect4-->
+        <ImageView
+            android:layout_width="33.3dp"
+            android:layout_height="100dp"
+            android:paddingTop="10dp"
+            android:id="@+id/i_connect2"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/connectnew"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/hr1"
+        android:layout_width="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="8dp"></TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+
+        android:divider="?android:listDivider"
+        >
+        <ImageView
+            android:layout_width="33.3dp"
+            android:layout_height="100dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/i_contact"
+            android:background="@drawable/contact"
+            android:layout_weight="1"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"></View>
+
+        <ImageView
+            android:layout_width="33.3dp"
+            android:layout_height="100dp"
+            android:paddingTop="40dp"
+            android:id="@+id/i_services"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/servicesnew"
+            android:layout_weight="1"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"></View>
+
+        <ImageView
+            android:layout_width="33.3dp"
+            android:layout_height="100dp"
+            android:paddingTop="40dp"
+            android:id="@+id/i_book"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/booknew"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

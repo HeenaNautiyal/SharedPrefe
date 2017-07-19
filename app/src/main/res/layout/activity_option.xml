@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:id="@+id/lay1"
+    android:padding="15dp"
+    android:background="@drawable/default_ipadback"
+    >
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:id="@+id/register"
+        android:background="@drawable/gradient3"
+        android:layout_marginTop="135dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:text="Login"
+        android:background="@drawable/gradient3"
+        android:id="@+id/login"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/textView"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:background="@drawable/graphic"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Terms &amp; Conditions"
+            android:id="@+id/textView1"
+            android:textColor="@color/light_font"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:textStyle="bold"
+            android:shadowRadius="6"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/login"
+            android:layout_alignRight="@+id/textView"
+            android:layout_alignEnd="@+id/textView" />
+        <View
+            android:layout_width="205dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:text="Master life: Exploring your \n untapped potential to reach new things"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/light_font"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:textStyle="bold"
+            android:shadowRadius="6"
+            android:layout_below="@+id/login"
+            android:layout_alignRight="@+id/textView"
+            android:layout_alignEnd="@+id/textView" />
+
+        <CheckBox
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox1"
+            android:textColor="@color/light_font"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:layout_marginLeft="6dp"
+            android:textStyle="bold"
+            android:shadowRadius="6"
+            android:theme="@style/WhiteCheck"
+            android:text="Please accept this condition"
+            android:layout_below="@+id/textView1"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_alignStart="@+id/textView1"
+            android:checked="false" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.example.administrator.sharedprefe">
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+<application
+    android:allowBackup="true"
+    android:icon="@drawable/default_ipadback"
+    android:label="@string/app_name"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity android:name=".Register">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".Pdf_Article"/>
+    <activity android:name=".Authorchange"/>
+    <activity android:name=".Inquery"/>
+    <activity android:name=".Splash"/>
+    <activity android:name=".Home"/>
+    <activity android:name=".Programe"/>
+    <activity android:name=".Tvshow"/>
+    <activity android:name=".Article"/>
+    <activity android:name=".Manual_Vedio"/>
+    <activity android:name=".Review"/>
+    <activity android:name=".Audio"/>
+    <activity android:name=".UrlVedioes"/>
+    <activity android:name=".Videos"/>
+    <activity android:name=".Audiourl"/>
+    <activity android:name=".Services"/>
+    <activity android:name=".Login"/>
+    <activity android:name=".Connect"/>
+    <activity android:name=".Contact"/>
+    <activity android:name=".Books"/>
+    <activity android:name=".InternetConnection"/>
+    <activity android:name=".MainActivity"/>
+    <activity android:name=".Manual_Audio"/>
+    <activity android:name=".FreeStuff"/>
+</application>
+
+</manifest>
